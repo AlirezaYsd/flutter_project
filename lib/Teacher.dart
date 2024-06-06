@@ -1,8 +1,8 @@
-import 'package:ap_flutter/Course.dart';
+import 'Course.dart';
 
 class Teacher {
-  String name;
-  List<Course> courses;
+  String name="";
+  List<Course> courses=[];
   Teacher(String name) {
     this.name = name;
     this.courses = [];

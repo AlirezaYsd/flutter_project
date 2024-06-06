@@ -1,7 +1,7 @@
 import 'Course.dart';
 class Assignment{
   int deadline=0;
-  Course course;
+  late Course course;
   String name="";
   bool isActivated=false;
 
